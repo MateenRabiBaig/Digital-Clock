@@ -1,0 +1,35 @@
+body {
+    background-color: #f4f4f4;
+    padding: 150px;
+}
+
+.container {
+    height: 130px;
+    width: 300px;
+    border: 2px groove rgba(118, 239, 248, 0.9);
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+h1 {
+    font-style: italic;
+    color: rgb(8, 91, 100);
+    margin-bottom: 15px;
+}
+
+#clock {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(8, 91, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    margin: 0 5px;
+}
